@@ -24,6 +24,13 @@
             alt="Civic Tech New England logo"
           />
         </div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <div>Menu</div>
+        </label>
         <nav>
           <a href="#home">Home</a>
           <a href="#programs">Programs</a>
@@ -39,163 +46,189 @@
       </div>
     </header>
 
-    <section id="home" class="hero">
-      <div class="container">
-        <h1>From Downeast to The Hub</h1>
-        <p>
-          Building and supporting the civic tech ecosystem in Greater Boston and
-          the New England region
-        </p>
-        <a href="#programs" class="button">Explore our programs</a>
-      </div>
-    </section>
+    <main role="main">
+      <section id="home" class="hero">
+        <div class="container">
+          <h1>From Downeast to The Hub</h1>
+          <p>
+            Building and supporting the civic tech ecosystem in Greater Boston
+            and the New England region
+          </p>
+          <a href="#programs" class="button">Explore our programs</a>
+        </div>
+      </section>
 
-    <section id="programs">
-      <div class="container">
-        <h2>Programs</h2>
-        <div class="programs-grid">
-          <div class="program">
-            <span class="tag">Volunteer</span>
-            <h3>Code for Boston</h3>
+      <section id="programs">
+        <div class="container">
+          <h2>Programs</h2>
+          <div class="programs-grid">
+            <div class="program">
+              <span class="tag">Volunteer</span>
+              <h3>Code for Boston</h3>
+              <p>
+                Meeting weekly since 2012, Code for Boston is our flagship,
+                long-running volunteer program. At Code for Boston,
+                civically-minded developers, designers, data scientists, policy
+                experts, and advocates come together with local government and
+                community partners to build technology and policy projects that
+                positively impact our local communities.
+              </p>
+              <p>
+                Learn more at
+                <a href="https://www.codeforboston.org" target="_blank"
+                  >Code for Boston</a
+                >
+              </p>
+            </div>
+            <div class="program">
+              <span class="tag">Community</span>
+              <h3>Speaker Series</h3>
+              <p>
+                A community event series launched in 2026, the CTNE Speaker
+                Series aims to illuminate and educate attendees on a wide
+                variety of topics at the intersection of government, community,
+                technology, policy, and history. The Speaker Series provides
+                regular opportunities for a general audience to come together
+                for learning and discussion about how our city and our region
+                function, with a focus on demystifying government and civic
+                processes.
+              </p>
+            </div>
+            <div class="program">
+              <span class="tag">Industry</span>
+              <h3>GovTech Gatherings</h3>
+              <p>
+                Since 2024, CTNE aims to foster connection and community between
+                professionals working in all levels of government and the Boston
+                civic technology ecosystem of non-profits, community groups,
+                volunteer organizations, and academia through regular meetups,
+                communications, and targeted events. We believe that
+                facilitating these connections will lead to rich
+                inter-organizational collaborations, effective projects, and a
+                professional pipeline to careers in the civic tech field.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container about-grid">
+          <div class="about-container">
+            <h2>About</h2>
             <p>
-              Meeting weekly since 2012, Code for Boston is our flagship,
-              long-running volunteer program. At Code for Boston,
-              civically-minded developers, designers, data scientists, policy
-              experts, and advocates come together with local government and
-              community partners to build technology and policy projects that
-              positively impact our local communities.
+              Founded in 2024, Civic Tech New England is a
+              <a
+                href="https://projects.propublica.org/nonprofits/organizations/992780862"
+                target="_blank"
+                >501c3 organization</a
+              >
+              dedicated to building and promoting civic technology in Greater
+              Boston and the New England region. Through community building,
+              network development, education, and project development, we seek
+              to bring together the elements of the local and regional civic
+              tech ecosystem to build a more effective, more understandable, and
+              more engaged government and civil society.
             </p>
+          </div>
+          <aside class="sidebar">
+            <img
+              src="assets/img/ACT_logo.png"
+              alt="Alliance of Civic Technologists logo"
+            />
             <p>
-              Learn more at
-              <a href="https://www.codeforboston.org" target="_blank"
-                >Code for Boston</a
+              Proud member of the
+              <a href="https://www.civictechnologists.org" target="_blank"
+                >Alliance of Civic Technologists</a
               >
             </p>
-          </div>
-          <div class="program">
-            <span class="tag">Community</span>
-            <h3>Speaker Series</h3>
-            <p>
-              A community event series launched in 2026, the CTNE Speaker Series
-              aims to illuminate and educate attendees on a wide variety of
-              topics at the intersection of government, community, technology,
-              policy, and history. The Speaker Series provides regular
-              opportunities for a general audience to come together for learning
-              and discussion about how our city and our region function, with a
-              focus on demystifying government and civic processes.
-            </p>
-          </div>
-          <div class="program">
-            <span class="tag">Industry</span>
-            <h3>GovTech Gatherings</h3>
-            <p>
-              Since 2024, CTNE aims to foster connection and community between
-              professionals working in all levels of government and the Boston
-              civic technology ecosystem of non-profits, community groups,
-              volunteer organizations, and academia through regular meetups,
-              communications, and targeted events. We believe that facilitating
-              these connections will lead to rich inter-organizational
-              collaborations, effective projects, and a professional pipeline to
-              careers in the civic tech field.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="about">
-      <div class="container about-grid">
-        <div>
-          <h2>About</h2>
-          <p>
-            Founded in 2024, Civic Tech New England is a
-            <a
-              href="https://projects.propublica.org/nonprofits/organizations/992780862"
-              target="_blank"
-              >501c3 organization</a
-            >
-            dedicated to building and promoting civic technology in Greater
-            Boston and the New England region. Through community building,
-            network development, education, and project development, we seek to
-            bring together the elements of the local and regional civic tech
-            ecosystem to build a more effective, more understandable, and more
-            engaged government and civil society.
-          </p>
-          <h3>Board of Directors</h3>
-          <div class="board-grid">
-            <div class="board-member">
-              <div class="board-photo">
-                <img src="assets/img/Harlan.jpg" alt="Harlan Weber" />
+          </aside>
+          <div class="board-container">
+            <h3>Board of Directors</h3>
+            <div class="board-grid">
+              <div class="board-member">
+                <div class="board-photo">
+                  <img
+                    src="assets/img/Harlan.jpg"
+                    alt="Photo of Harlan Weber smiling at a Code for Boston event"
+                  />
+                </div>
+                <h4>Harlan Weber</h4>
+                <p class="title">President & Chairman</p>
               </div>
-              <h4>Harlan Weber</h4>
-              <p class="title">President & Chairman</p>
-            </div>
-            <div class="board-member">
-              <div class="board-photo">
-                <img src="assets/img/Will.jpg" alt="Will Pfeffer" />
+              <div class="board-member">
+                <div class="board-photo">
+                  <img
+                    src="assets/img/Will.jpg"
+                    alt="Photo of Will Pfeffer smiling in a suit and tie"
+                  />
+                </div>
+                <h4>Will Pfeffer</h4>
+                <p class="title">Vice President</p>
               </div>
-              <h4>Will Pfeffer</h4>
-              <p class="title">Vice President</p>
-            </div>
-            <div class="board-member">
-              <div class="board-photo">
-                <img src="assets/img/Annie.jpg" alt="Annie LaCourt" />
+              <div class="board-member">
+                <div class="board-photo">
+                  <img
+                    src="assets/img/Annie.jpg"
+                    alt="Black and white photo of Annie LaCourt in front of steps"
+                  />
+                </div>
+                <h4>Annie LaCourt</h4>
+                <p class="title">Treasurer</p>
               </div>
-              <h4>Annie LaCourt</h4>
-              <p class="title">Treasurer</p>
-            </div>
-            <div class="board-member">
-              <div class="board-photo">
-                <img src="assets/img/Matt.png" alt="Matt Zagaja" />
+              <div class="board-member">
+                <div class="board-photo">
+                  <img
+                    src="assets/img/Matt.png"
+                    alt="Photo of Matt Zagaja smiling in a polo"
+                  />
+                </div>
+                <h4>Matt Zagaja</h4>
+                <p class="title">Clerk</p>
               </div>
-              <h4>Matt Zagaja</h4>
-              <p class="title">Clerk</p>
-            </div>
-            <div class="board-member">
-              <div class="board-photo">
-                <img src="assets/img/Thad.png" alt="Thad Kerosky" />
+              <div class="board-member">
+                <div class="board-photo">
+                  <img src="assets/img/Thad.png" alt="Photo of Thad Kerosky" />
+                </div>
+                <h4>Thad Kerosky</h4>
+                <p class="title">Board Member</p>
               </div>
-              <h4>Thad Kerosky</h4>
-              <p class="title">Board Member</p>
-            </div>
-            <div class="board-member">
-              <div class="board-photo">
-                <img src="assets/img/Brian.png" alt="Brian Sanders" />
+              <div class="board-member">
+                <div class="board-photo">
+                  <img
+                    src="assets/img/Brian.png"
+                    alt="Photo of Brian Sanders outdoors in a puffy jacket and knit cap"
+                  />
+                </div>
+                <h4>Brian Sanders</h4>
+                <p class="title">Board Member</p>
               </div>
-              <h4>Brian Sanders</h4>
-              <p class="title">Board Member</p>
-            </div>
-            <div class="board-member">
-              <div class="board-photo">
-                <img src="assets/img/Mike.jpg" alt="Mike Yavorsky" />
+              <div class="board-member">
+                <div class="board-photo">
+                  <img
+                    src="assets/img/Mike.jpg"
+                    alt="Photo of Mike Yavorsky smiling in front of trees"
+                  />
+                </div>
+                <h4>Mike Yavorsky</h4>
+                <p class="title">Board Member</p>
               </div>
-              <h4>Mike Yavorsky</h4>
-              <p class="title">Board Member</p>
             </div>
           </div>
         </div>
-        <aside class="sidebar">
-          <img src="assets/img/ACT_logo.png" />
-          <p>
-            Proud member of the
-            <a href="https://www.civictechnologists.org" target="_blank"
-              >Alliance of Civic Technologists</a
-            >
-          </p>
-        </aside>
-      </div>
-    </section>
+      </section>
 
-    <section id="contact">
-      <div class="container">
-        <h2>Connect with us</h2>
-        <form name="contact" netlify>
-          <label>Email<input type="email" name="email" /></label>
-          <label>Message<textarea name="message"></textarea></label>
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-    </section>
+      <section id="contact">
+        <div class="container">
+          <h2>Connect with us</h2>
+          <form name="contact" netlify>
+            <label>Email<input type="email" name="email" /></label>
+            <label>Message<textarea name="message"></textarea></label>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
 
     <footer>
       <div class="container">© 2026 Civic Tech New England</div>
