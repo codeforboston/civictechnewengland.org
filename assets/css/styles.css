@@ -10,7 +10,9 @@
   --max-width: 1100px;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -21,9 +23,15 @@ body {
   line-height: 1.6;
 }
 
-a { color: var(--accent); text-decoration: none; }
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
 
-img { max-width: 100%; display: block; }
+img {
+  max-width: 100%;
+  display: block;
+}
 
 header {
   position: fixed;
@@ -45,7 +53,9 @@ header {
   justify-content: space-between;
 }
 
-.logo img { height: 40px; }
+.logo img {
+  height: 40px;
+}
 
 nav a {
   margin-left: 1.25rem;
@@ -104,7 +114,9 @@ section {
   color: var(--text-muted);
 }
 
-.about { background: var(--bg-soft); }
+.about {
+  background: var(--bg-soft);
+}
 
 .about-grid {
   display: grid;
@@ -116,10 +128,12 @@ section {
   background: #fff;
   padding: 1.5rem;
   border-radius: 6px;
-  border: .25rem dashed #b0b0b0;
+  border: 0.25rem dashed #b0b0b0;
 }
 
-form { max-width: 700px; }
+form {
+  max-width: 700px;
+}
 
 label {
   display: block;
@@ -127,7 +141,8 @@ label {
   margin-top: 1.25rem;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 0.6rem;
   margin-top: 0.4rem;
@@ -136,7 +151,9 @@ input, textarea {
   border: 1px solid #ccc;
 }
 
-textarea { min-height: 140px; }
+textarea {
+  min-height: 140px;
+}
 
 button {
   margin-top: 1.5rem;
@@ -153,4 +170,15 @@ footer {
   padding: 2rem 1.25rem;
   font-size: 0.9rem;
   color: var(--text-muted);
+}
+
+.board-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1.5rem;
+}
+
+.photo-placeholder {
+  width: 120px;
+  height: 120px;
 }
