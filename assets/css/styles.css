@@ -178,7 +178,15 @@ footer {
   gap: 1.5rem;
 }
 
-.photo-placeholder {
-  width: 120px;
-  height: 120px;
+.board-photo {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+.board-member h4 {
+  margin: 0.5rem 0 0 0;
+}
+
+.board-member .title {
+  margin: 0.25rem 0 0 0;
 }
