@@ -85,7 +85,8 @@ section {
 
 .hero {
   padding-top: calc(var(--header-height) + 4rem);
-  background-image: url("../img/venti-views-_MjAjDQQgrY-unsplash.jpg");
+  background-image: url("../img/venti-views-_MjAjDQQgrY-unsplash-frosted-bw.jpg");
+  background-position: 25% 20%;
   /* background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), #999; */
   color: #fff;
 }
